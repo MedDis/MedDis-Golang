@@ -12,8 +12,8 @@ import (
 const CONFIG_SMTP_HOST = "smtp.gmail.com"
 const CONFIG_SMTP_PORT = 587
 const CONFIG_SENDER_NAME = "Medical Discovery Support<meddiscov@gmail.com>"
-const CONFIG_AUTH_EMAIL = "meddiscov@gmail.com"
-const CONFIG_AUTH_PASSWORD = "ghmrqlpvcxlkhjwt"
+const CONFIG_AUTH_EMAIL = "<yourmail>"
+const CONFIG_AUTH_PASSWORD = "<yourCode>"
 
 func SendCodeVerification(clientMail string, code int) {
 	mailer := gomail.NewMessage()
